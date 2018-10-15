@@ -6,7 +6,10 @@ public class TestRomanNumerals {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		RomanNumerals test = new RomanNumerals();;
+
+		assertEquals(1984, test.convertToInteger( "MCMLXXXIV"));
+     //   assertEquals(test.convertToInteger( "MMXIV"), 2014);
 	}
 
 }
